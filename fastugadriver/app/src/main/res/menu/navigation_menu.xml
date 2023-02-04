@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuAvailableOrders"
+        android:title="Available Orders" />
+    <item
+        android:id="@+id/statistics"
+        android:title="Statistics"/>
+    <item
+        android:id="@+id/notificationHistory"
+        android:title="Notification History"/>
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"/>
+    <item android:title="Others" >
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:title="Logout"/>
+            <item
+                android:id="@+id/turnOffNotifications"
+                android:title="Turn On/Off Notifications"/>
+            <item
+                android:id="@+id/optOut"
+                android:title="Opt Out"/>
+        </menu>
+    </item>
+</menu>

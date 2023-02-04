@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuAvailableOrders">
+
+    <fragment
+        android:id="@+id/menuAvailableOrders"
+        android:name="ipleiria.taes.fastugadriver.fragments.AvailableOrdersFragment"
+        android:label="AvailableOrders"
+        tools:layout="@layout/fragment_available_orders" >
+        <action
+            android:id="@+id/action_menuAvailableOrders_to_orderDetailsFragment"
+            app:destination="@id/orderDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/orderDetailsFragment"
+        android:name="ipleiria.taes.fastugadriver.fragments.OrderDetailsFragment"
+        android:label="fragment_order_details"
+        tools:layout="@layout/fragment_order_details" />
+    <fragment
+        android:id="@+id/statistics"
+        android:name="ipleiria.taes.fastugadriver.fragments.StatisticsFragment"
+        android:label="Statistics"
+        tools:layout="@layout/fragment_statistics" >
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="ipleiria.taes.fastugadriver.fragments.MyProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/notificationHistory"
+        android:name="ipleiria.taes.fastugadriver.fragments.NotificationHistoryFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification_history" />
+</navigation>
