@@ -1,18 +1,18 @@
-### Fastuga-Driver Application
+# Fastuga-Driver Application
 
-#### Description
+## Description
 
 The FasTuga Driver Application is a school project designed to enhance the FasTuga restaurant's business by providing an additional value to its customers. The goal of the project is to develop a mobile application that allows drivers to deliver orders to customers while earning money. The application should interact with a centralized support system that holds details about the orders, customers, and drivers.
 
-#### "Why?"
+## "Why?"
 
 This project aims to enhance the FasTuga restaurant's business by providing an additional value to its customers. The goal is to develop a mobile application that allows drivers to deliver orders to customers while earning money. The application interacts with a centralized support system that holds details about orders, customers, and drivers.
 
-#### Quick Start
+## Quick Start
 
 To use the application, the driver needs to register and conduct a valid login. All features are available, and at any time.
 
-#### Usage
+## Usage
 
 When the driver opens the application, she will have access to a dashboard that shows the list of available orders and a dedicated area of the orders assigned to her. The driver can select an order based on the criteria of the nearest or farthest location, get directions to the destination, and optimize the total time of delivery.
 
@@ -29,7 +29,7 @@ The collaborators on this project are:
 - [Sara](https://github.com/sfilipa)
 - [Ivo](https://github.com/ivoafonsobispo)
 
-#### Tools Used
+## Tools Used
 
 - Android Studio: Used as the development environment for building and testing the Android application.
 - Katalon Studio: Used for automated testing of the application.
@@ -38,7 +38,7 @@ The collaborators on this project are:
 - OpenStreetMap: Used as the mapping platform for displaying location information in the application.
 - Firebase: Used as the backend service for storing and retrieving data, and for authentication and user management.
 
-#### Other Information
+## Other Information
 
 - Our project received a grade of 18.19 out of 20.
 - This project was developed for the [Computer Engineering degree](https://www.ipleiria.pt/curso/licenciatura-em-engenharia-informatica/) at [Polytechnic of Leiria](https://www.ipleiria.pt/).
