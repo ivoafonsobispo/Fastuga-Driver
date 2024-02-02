@@ -10,7 +10,7 @@ This project aims to enhance the FasTuga restaurant's business by providing an a
 
 ## Quick Start
 
-To use the application, the driver needs to register and conduct a valid login. All features are available, and at any time.
+To use the application, firstly the user needs an Android Device then the driver needs to register and conduct a valid login. All features are available, and at any time.
 
 ## Usage
 
